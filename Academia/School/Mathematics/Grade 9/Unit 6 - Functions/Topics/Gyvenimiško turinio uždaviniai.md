@@ -1,8 +1,4 @@
-# IRL stuff for functions
-Hello
-
-
-```questy
-questions: 5
-regen: yes
-```
+$y=kx+b$
+$k=-2 | (0;9)$
+$-2\cdot0+b=9$
+$b=9$
