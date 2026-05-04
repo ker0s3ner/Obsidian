@@ -96,6 +96,3 @@ lesson
 | | $\text{Zn}(\text{OH})_2$ | $\text{N}_2\text{O}_5$ |
 | | $\text{NH}_3$ | $\text{CaO}$ |
 | | $\text{Ca}(\text{OH})_2$ | $\text{SO}_3$ |
-| | | |
-
-$KOH, P_2O_5, HNO_3, Al(OH)_3, K_2O, Cu(OH)_2, ZNO, H_3PO_4, HCl, Zn(OH)_2, N_2O_5, NH_3, CaO, Ca(OH)_2, SO_3$
