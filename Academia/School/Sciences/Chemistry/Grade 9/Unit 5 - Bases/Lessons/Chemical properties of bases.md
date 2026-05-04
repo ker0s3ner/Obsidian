@@ -96,3 +96,5 @@ lesson
 | | $\text{Zn}(\text{OH})_2$ | $\text{N}_2\text{O}_5$ |
 | | $\text{NH}_3$ | $\text{CaO}$ |
 | | $\text{Ca}(\text{OH})_2$ | $\text{SO}_3$ |
+
+1. How many grams of salt will be formed when 10g of FeO reacts with 200 mL of a 5% HCl solution (density 1.1 $g/cm^3$)
