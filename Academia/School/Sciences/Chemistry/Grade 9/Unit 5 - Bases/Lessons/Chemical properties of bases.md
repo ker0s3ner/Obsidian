@@ -97,4 +97,4 @@ lesson
 | | $\text{NH}_3$ | $\text{CaO}$ |
 | | $\text{Ca}(\text{OH})_2$ | $\text{SO}_3$ |
 
-1. $How many grams of salt will be formed when 10g of FeO reacts with 200 mL of a 5% HCl solution (density 1.1 $g/cm^3$)$
+1. $\text{How many grams of salt will be formed when 10g of FeO reacts with 200 mL of a 5% HCl solution (density 1.1 $g/cm^3$)}$
