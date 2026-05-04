@@ -1,5 +1,7 @@
 ### Academia/School/Sciences/Chemistry/Grade 9/Unit 5 - Bases/Lessons/Chemical properties of bases.md
 
+### Academia/School/Sciences/Chemistry/Grade 9/Unit 5 - Bases/Lessons/Chemical properties of bases.md
+
 Related: [[Chemical properties of bases]] · [[Calculations]] · [[Acid - Base Titration]]
 
 ---
@@ -97,4 +99,4 @@ lesson
 | | $\text{NH}_3$ | $\text{CaO}$ |
 | | $\text{Ca}(\text{OH})_2$ | $\text{SO}_3$ |
 
-1. $\text{How many grams of salt will be formed when 10g of FeO reacts with 200 mL of a 5% HCl solution (density 1.1 g/cm^3)}$
+1. How many grams of salt will be formed when $10\text{g}$ of $\text{FeO}$ reacts with $200 \text{ mL}$ of a $5\%$ $\text{HCl}$ solution (density $1.1 \text{ g/cm}^3$)?
