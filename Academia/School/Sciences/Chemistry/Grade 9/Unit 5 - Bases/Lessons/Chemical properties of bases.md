@@ -1,3 +1,5 @@
+### Academia/School/Sciences/Chemistry/Grade 9/Unit 5 - Bases/Lessons/Chemical properties of bases.md
+
 Related: [[Chemical properties of bases]] · [[Calculations]] · [[Acid - Base Titration]]
 
 ---
@@ -81,7 +83,6 @@ Some transition metal ions react with strong bases to form precipitates of metal
 4.  Predict the products when sodium hydroxide reacts with sulfur dioxide ($\text{SO}_2$), an acidic oxide. Write the balanced equation.
 5.  Describe what would be observed if a small amount of aqueous ammonia ($\text{NH}_4\text{OH}$) is added to a copper(II) sulfate solution, and then excess aqueous ammonia is added. (Hint: Copper(II) hydroxide is not amphoteric but forms a soluble complex with excess ammonia).
 
-
 ---
 
 lesson
@@ -89,16 +90,12 @@ lesson
 
 | Acids | Bases | Oxides |
 |-------|-------|--------|
-|       |       |        |
-|-------|-------|--------|
-|       |       |        |
-|-------|-------|--------|
-|       |       |        |
-|-------|-------|--------|
-|       |       |        |
-|-------|-------|--------|
-|       |       |        |
-|-------|-------|--------|
-|       |       |        |
+| $\text{HNO}_3$ | $\text{KOH}$ | $\text{P}_2\text{O}_5$ |
+| $\text{H}_3\text{PO}_4$ | $\text{Al}(\text{OH})_3$ | $\text{K}_2\text{O}$ |
+| $\text{HCl}$ | $\text{Cu}(\text{OH})_2$ | $\text{ZnO}$ |
+| | $\text{Zn}(\text{OH})_2$ | $\text{N}_2\text{O}_5$ |
+| | $\text{NH}_3$ | $\text{CaO}$ |
+| | $\text{Ca}(\text{OH})_2$ | $\text{SO}_3$ |
+| | | |
 
 $KOH, P_2O_5, HNO_3, Al(OH)_3, K_2O, Cu(OH)_2, ZNO, H_3PO_4, HCl, Zn(OH)_2, N_2O_5, NH_3, CaO, Ca(OH)_2, SO_3$
