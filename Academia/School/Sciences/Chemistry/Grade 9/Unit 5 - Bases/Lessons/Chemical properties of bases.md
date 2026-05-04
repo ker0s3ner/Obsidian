@@ -80,3 +80,25 @@ Some transition metal ions react with strong bases to form precipitates of metal
 3.  Magnesium hydroxide ($\text{Mg}(\text{OH})_2$) is a common antacid. Write the neutralization reaction it undergoes with stomach acid ($\text{HCl}$).
 4.  Predict the products when sodium hydroxide reacts with sulfur dioxide ($\text{SO}_2$), an acidic oxide. Write the balanced equation.
 5.  Describe what would be observed if a small amount of aqueous ammonia ($\text{NH}_4\text{OH}$) is added to a copper(II) sulfate solution, and then excess aqueous ammonia is added. (Hint: Copper(II) hydroxide is not amphoteric but forms a soluble complex with excess ammonia).
+
+
+---
+
+lesson
+
+
+| Acids | Bases | Oxides |
+|-------|-------|--------|
+|       |       |        |
+|-------|-------|--------|
+|       |       |        |
+|-------|-------|--------|
+|       |       |        |
+|-------|-------|--------|
+|       |       |        |
+|-------|-------|--------|
+|       |       |        |
+|-------|-------|--------|
+|       |       |        |
+
+$KOH, P_2O_5, HNO_3, Al(OH)_3, K_2O, Cu(OH)_2, ZNO, H_3PO_4, HCl, Zn(OH)_2, N_2O_5, NH_3, CaO, Ca(OH)_2, SO_3$
