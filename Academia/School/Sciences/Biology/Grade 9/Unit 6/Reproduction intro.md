@@ -21,6 +21,7 @@ To give the respective persons chromosomes during birth.
 ---
 
 Two types: mitosis and meiosis
-
+Mitosis is to make new cells
+Meiosis is to reproduce
 
 ---
