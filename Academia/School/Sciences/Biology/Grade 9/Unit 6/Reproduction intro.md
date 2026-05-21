@@ -20,6 +20,7 @@ Because they create a kid
 To give the respective persons chromosomes during birth.
 ---
 
-Two types 
+Two types: mitosis and meiosis
+
 
 ---
