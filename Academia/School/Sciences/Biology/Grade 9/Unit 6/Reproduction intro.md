@@ -18,6 +18,6 @@
 Because they create a kid
 ```
 
-'''print('Hello world')'''
+'''print('Hello world'
 ```
 ---
