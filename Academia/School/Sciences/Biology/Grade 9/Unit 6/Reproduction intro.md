@@ -17,5 +17,5 @@
 
 Because they create a kid
 
-To give 
+To give half the male/female 
 ---
