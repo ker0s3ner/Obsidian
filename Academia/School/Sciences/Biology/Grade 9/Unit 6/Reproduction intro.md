@@ -29,6 +29,6 @@ Meiosis is to reproduce
 1. It's important so there are constantly new cells
 2. Eukaryotic somatic cells
 3. It's importnant to reproduce gametes
-4. 
+4. Germ cells
 
 ---
