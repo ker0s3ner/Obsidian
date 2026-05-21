@@ -10,7 +10,7 @@
 
 # vid on types of reproduction
 - Asexual and sexual
-- Asexual allows for no STDs therefore there's less chance of extinction. Disadvantage would
+- Asexual allows for no STDs therefore there's less chance of extinction. Disadvantage would be overpopulation. 
 - Asexual
   
 ---
