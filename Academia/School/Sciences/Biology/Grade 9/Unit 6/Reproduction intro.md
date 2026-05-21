@@ -2,4 +2,4 @@
 
 - Size changes
 - Cells stay the same
-- Genetics and 
+- Genetics and enviroment
