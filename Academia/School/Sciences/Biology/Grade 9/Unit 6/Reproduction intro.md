@@ -9,3 +9,4 @@
 ---
 
 # vid on types of reproduction
+what are the two 
