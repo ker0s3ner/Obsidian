@@ -10,7 +10,7 @@
 
 # vid on types of reproduction
 - Asexual and sexual
-- Asexual allows for no STDs 
+- Asexual allows for no STDs therefore it's
 - Asexual
   
 ---
