@@ -11,6 +11,6 @@
 # vid on types of reproduction
 - Asexual and sexual
 - 
-- 
+- Asexual
   
 ---
