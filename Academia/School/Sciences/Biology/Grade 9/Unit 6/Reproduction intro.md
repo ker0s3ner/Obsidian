@@ -16,7 +16,5 @@
 ---
 
 Because they create a kid
-```
-print('Hello world')
-```
+
 ---
