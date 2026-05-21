@@ -26,6 +26,7 @@ Meiosis is to reproduce
 
 ---
 
-1. 
+1. It's important so there are constantly new cells
+2. 
 
 ---
