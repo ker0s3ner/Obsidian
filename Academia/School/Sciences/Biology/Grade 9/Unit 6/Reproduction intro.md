@@ -17,5 +17,5 @@
 
 Because they create a kid
 
-To give half the male/female 
+To give the respective persons chromosomes during birth.
 ---
