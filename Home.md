@@ -24,7 +24,7 @@ format: 24
 | English | 9 | 4 | 2 |
 | Maths | 9 | 4 | 2 |
 | Geography | 4 | 2 | 1 |
-| English | Cell 2 | Cell 2.    | Cell 2.    |
+| Digital Design | Cell 2 | Cell 2.    | Cell 2.    |
 | English | Cell 2 | Cell 2.    | Cell 2.    |
 | English | Cell 2 | Cell 2.    | Cell 2.    |
 
