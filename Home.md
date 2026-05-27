@@ -21,7 +21,7 @@ format: 24
 | Subject | Points | Grade (LT) | Grade (IB) |
 |---------|--------|------------|----------- |
 | Lietuviu | Cell 2 | Cell 2.   | Cell 2.    |
-| English | 9 | 4 | Cell 2.    |
+| English | 9 | 4 | 2 |
 | Maths | Cell 2 | Cell 2.    | Cell 2.    |
 | Geography | Cell 2 | Cell 2.    | Cell 2.    |
 | English | Cell 2 | Cell 2.    | Cell 2.    |
