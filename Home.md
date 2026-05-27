@@ -18,7 +18,7 @@ format: 24
 
 ## Grades
 
-| Header 1 | Header 2 |
+| Subject | Header 2 |
 |----------|----------|
 | Cell 1   | Cell 2   |
 
