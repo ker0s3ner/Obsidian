@@ -18,7 +18,7 @@ format: 24
 
 ## Grades
 
-| Subject | Grade |
+| Subject | Grade (LT) |
 |----------|----------|
 | Cell 1   | Cell 2   |
 
