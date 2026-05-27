@@ -22,7 +22,7 @@ format: 24
 |---------|--------|------------|----------- |
 | Lietuviu | Cell 2 | Cell 2.   | Cell 2.    |
 | English | 9 | 4 | 2 |
-| Maths | Cell 2 | Cell 2.    | Cell 2.    |
+| Maths | 9 | Cell 2.    | Cell 2.    |
 | Geography | 4 | 2 | 1 |
 | English | Cell 2 | Cell 2.    | Cell 2.    |
 | English | Cell 2 | Cell 2.    | Cell 2.    |
