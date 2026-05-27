@@ -21,6 +21,7 @@ format: 24
 | Subject | Grade (LT) | Grade (IB)
 |----------|----------|
 | Lietuviu   | Cell 2   |
+| Lietuviu   | Cell 2   |
 
 
 ---
