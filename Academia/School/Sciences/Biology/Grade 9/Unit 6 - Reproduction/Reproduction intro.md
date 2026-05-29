@@ -33,9 +33,6 @@ Meiosis is to reproduce
 
 ---
 
-'''imren
-link = https://preview.redd.it/the-new-movie-is-so-good-and-golly-what-an-opening-v0-mgnp7zpdscf81.jpg?width=1080&crop=smart&auto=webp&s=ca41b94d0ba0d669630a380fd7b1609d7262951b
-'''
 ```web
 url: https://preview.redd.it/the-new-movie-is-so-good-and-golly-what-an-opening-v0-mgnp7zpdscf81.jpg?width=1080&crop=smart&auto=webp&s=ca41b94d0ba0d669630a380fd7b1609d7262951b
 height: 480
