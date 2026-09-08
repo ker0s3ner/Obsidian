@@ -1,4 +1,4 @@
 # Criteria A
 djjd
 
-- Jaunesni 
+- Jauni interneto vartotojai 
