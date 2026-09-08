@@ -5,6 +5,6 @@ djjd
 - Credential stuffing (https://owasp.org/www-community/attacks/Credential_stuffing)
 
 ```web
-url: https://example.com
+url: https://owasp.org/www-community/attacks/Credential_stuffing
 height: 420
 ```
