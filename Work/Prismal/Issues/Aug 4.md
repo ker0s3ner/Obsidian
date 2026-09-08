@@ -15,5 +15,6 @@ K2e@https://prismal.gammastudios.xyz/assets/index-Uf2QFFNL.js:38:33631
 h8e@https://prismal.gammastudios.xyz/assets/index-Uf2QFFNL.js:38:17571
 y8t@https://prismal.gammastudios.xyz/assets/index-Uf2QFFNL.js:38:17346
 Also, styles don't work (they work like the Spyder app, reworks the UI/UX to fit those. Remove some styles like the wolfram alpha and others that don't fit this idea)
-create a transparent icon
+create a transparent icon ba
+
 
