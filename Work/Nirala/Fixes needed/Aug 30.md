@@ -21,4 +21,3 @@
 - Extra YAML blocks (weather etc.)
 - If I highlight a block that contains dashes or is a dotted list, you can change it to be a to do list or any other type
 - 
-- 
