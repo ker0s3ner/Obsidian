@@ -1,4 +1,4 @@
 # Criteria A
 djjd
 
-- Jauni interneto vartotojai 
+- Jauni interneto vartotojai vis labiau neatskiria patikim
