@@ -1,27 +1,46 @@
-# Ev
-- Assisted mode as a plain chatbot that reads the whole vault and edits linked notes
-- Notebook (AI) UI refinement
-- Firebase push notifications
-- Link a GitHub account instead of one repo (public + private)
-- Performance pass / Sentry slowness
-- Full Jupyter replacement (interactive cells)
-- AI pet in the chat
-- Preloading the whole library instead of searching
-- Photo library
-- Custom 401/403 pages and bottom-right notifications
-- Release cards like Claude's (image + text + "read changelog")
-- Removing the old "file formatting" option now that guides exist
-- Feed source button alignment
-- Vim keybinds (and pasting a full mapping)
-- About section outdated; settings page redesign; plugins
-- Assisted-mode edits committed but not showing
-- Acting on blocked files (delete/rename/open) while keeping the overlay
-- Removing the Cornell block
-- Voice memos still broken
-- Extra YAML blocks (weather etc.)
-- If I highlight a block that contains dashes or is a dotted list, you can change it to be a to do list or any other type
-- shows the MOC or SOC contents linearly, even though they might be in a list
-- line handling is still shit (skipping over stuff)
-- in the settings, when the website is slimmer (the browser might be smaller in width) the text of some buttons escapes the bounds
-- you can't edit files in split view
-- 
+# Nirala Backlog
+
+## Bugs
+- [ ] Assisted-mode edits are committed but not showing
+- [ ] Line handling is still broken (skipping over content)
+- [ ] MOC/SOC contents show linearly even when they're actually in a list
+- [ ] Settings page: button text escapes its bounds when the browser window is narrower
+- [ ] Can't edit files in split view
+- [ ] Voice memos still broken
+- [ ] Feed source button alignment
+
+## Assisted Mode / AI
+- [ ] Add a plain-chatbot assisted mode that reads the whole vault and edits linked notes
+- [ ] Refine the Notebook (AI) UI
+- [ ] Add an AI pet in the chat
+
+## GitHub / Storage
+- [ ] Link a full GitHub account instead of a single repo — support both public and private repos
+
+## Editor / Formatting
+- [ ] If a highlighted block contains dashes or is a dotted list, allow converting it to a to-do list or another block type
+- [ ] Remove the old "file formatting" option now that guides exist
+- [ ] Remove the Cornell block
+- [ ] Support acting on blocked files (delete/rename/open) while keeping the overlay
+- [ ] Add Vim keybinds (full mapping)
+- [ ] Clean up extra YAML blocks (e.g. weather)
+
+## Library / Content
+- [ ] Preload the whole library instead of requiring search
+- [ ] Add a photo library
+
+## Notifications
+- [ ] Add Firebase push notifications
+- [ ] Add custom 401/403 pages and bottom-right notification toasts
+- [ ] Add release cards (image + text + "read changelog"), Claude-style
+
+## Settings / Misc
+- [ ] Update the outdated About section
+- [ ] Redesign the settings page
+- [ ] Add plugin support
+
+## Performance
+- [ ] Do a performance pass — investigate Sentry-reported slowness
+
+## Big / Future
+- [ ] Full Jupyter replacement with interactive cells (beyond current notebook import)
