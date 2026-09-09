@@ -22,4 +22,4 @@
 - If I highlight a block that contains dashes or is a dotted list, you can change it to be a to do list or any other type
 - shows the MOC or SOC contents linearly, even though they might be in a list
 - line handling is still shit (skipping over stuff)
-- in the settings, when the website is slimmer (the browser might be smaller in width, the text of some buttons escapes the bounds
+- in the settings, when the website is slimmer (the browser might be smaller in width) the text of some buttons escapes the bounds
