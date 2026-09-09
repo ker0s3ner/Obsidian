@@ -23,3 +23,5 @@
 - shows the MOC or SOC contents linearly, even though they might be in a list
 - line handling is still shit (skipping over stuff)
 - in the settings, when the website is slimmer (the browser might be smaller in width) the text of some buttons escapes the bounds
+- you can't edit files in split view
+- 
