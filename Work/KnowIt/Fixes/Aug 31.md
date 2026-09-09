@@ -90,4 +90,4 @@ CoWorker
 - Take freecodecamp and how they make their roadmaps: they add workshops and stuff. So add that into our learning plans (both the normal and career). For normal learning plans, for example in a maths learning plan, it would add writing a proof and stuff.
 - onboarding needed
 - rainbow text at the front page just stops completely and continues, it needs to slow down when it will stop and have a bigger radius
-- 
+- need to refine the 
