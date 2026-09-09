@@ -91,4 +91,4 @@ CoWorker
 - onboarding needed
 - rainbow text at the front page just stops completely and continues, it needs to slow down when it will stop and have a bigger radius
 - need to refine the prompt for how the coworker and other AIs should generate their content
-- check if the chats with the AIs like coworker are not 
+- check if the chats with the AIs like coworker are not device based (they should be account based, meaning any 
