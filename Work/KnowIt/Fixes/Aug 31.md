@@ -1,101 +1,101 @@
-Bugs / Broken Functionality
+# KnowIt Backlog
 
-•	My Classes page loads differently from the other pages
-•	Progress doesn’t actually save in environments — check both free and premium users
-•	Subject Comparison widget still shows Learning Plans as if they were Subjects — fix
-•	Subject Comparison hover tooltip shows “Value: n” instead of “Lesson Count: n”
-•	Multiplayer: full or 1hr+ old rooms aren’t cleaned up — remove them
-•	Multiplayer: exiting a room still counts the user as present, inflating the room count
-•	Some personalized-learning lessons fail to render graphs/visualizations
-•	Exam generation fails: Edge Function returns a non-2xx status code
-•	Tab favicon doesn’t match the actual site logo — replace it
-•	Community posts layout is broken (hearts, comments, trash icon)
+## Bugs
+- [ ] My Classes page loads differently from the other pages
+- [ ] Progress doesn't actually save in environments — check both free and premium users
+- [ ] Subject Comparison widget still shows Learning Plans as if they were Subjects
+- [ ] Subject Comparison hover tooltip shows "Value: n" instead of "Lesson Count: n"
+- [ ] Multiplayer: full or 1hr+ old rooms aren't cleaned up — remove them
+- [ ] Multiplayer: exiting a room still counts the user as present, inflating the room count
+- [ ] Some personalized-learning lessons fail to render graphs/visualizations — verify all animations/graphs render
+- [ ] Exam generation fails: Edge Function returns a non-2xx status code
+- [ ] Tab favicon doesn't match the actual site logo
+- [ ] Community posts layout is broken (hearts, comments, trash icon)
+- [ ] Payment history is locked behind premium — should not be, fix/unlock
 
-Environments (multi-user / real-time)
+## Environments
+- [ ] Verify environment invites actually work
+- [ ] Verify other users' actions in a shared environment show up live for everyone, and persist
+- [ ] Add per-user colors (Google Docs-style) showing where each user is, including a colored wrapper/outline around the tool/element they're using
+- [ ] Teachers should be able to create environments
+- [ ] Build tutor-specific functionality
+- [ ] Add export of environment activity data (who did what)
 
-•	Verify environment invites actually work
-•	Verify other users’ actions in a shared environment show up live for everyone, and persist
-•	Add per-user colors (Google Docs-style) showing where each user is, including a colored wrapper/outline around the tool/element they’re currently using
-- teachers should be able to create enviroments
-- we need to develop shit for tutors
-- exporting data of what user did what in an enviroment
+## Multiplayer / Competitions
+- [ ] Add competitions to multiplayer, with a profile-page box showing which ones a user has won
+- [ ] Verify multiplayer works end-to-end
+- [ ] Verify users can actually get into classes
 
-Multiplayer / Competitions
+## Community
+- [ ] Add a way to invite someone to a community
+- [ ] Show which users are currently in a community
+- [ ] Add community settings controlling who can create new channels, etc.
+- [ ] Allow private community posts (visible only to friends), sorted most-recent-first
 
-•	Add competitions to multiplayer, with a box on the profile page showing which ones a user has won
-•	Verify multiplayer works end-to-end
-•	Verify users can actually get into classes
+## Profile / Social
+- [ ] Add fuzzy search + auto-suggested closest friends in "Add Friends"
+- [ ] Add achievements
 
-Community
+## Curriculum / Lessons — Content Coverage
+- [ ] Build out actual lesson content in /lessons
+- [ ] Support additional curricula: IB (MYP and DP), AP, GCSE, A-Levels, Le Bac, others
+- [ ] Use PirateIB repo (git.pirateib.sh/pirateIB) for IB DP past papers — free, past papers only
+- [ ] IB MYP: add Personal Project assistance (creating a project, step-by-step guidance, design help, feedback)
+- [ ] IB DP: add CAS, EE, TOK, IA support
 
-•	Add a way to invite someone to a community (currently unclear/missing)
-•	Show which users are currently in a community
-•	Add community settings controlling who can create new channels, etc.
-•	Allow making community posts private (visible only to friends), sorted most-recent-first
+## Curriculum / Lessons — Learning Plan Creation
+- [ ] Let students specify details when making a learning plan, including current grades (e.g. a 9th grader building a plan around their actual grades)
+- [ ] Allow extending a plan timeline beyond 6 months
+- [ ] Adapt next lessons based on solved time — replace the countdown with a count-up timer that adjusts future lessons based on performance
+- [ ] Instead of static question sequencing, generate each question on demand until the user demonstrates understanding, then base the next lesson's content/questions on how many attempts it took (Elicėjus-style adaptive approach)
+- [ ] Add final tests for each topic
 
-Profile / Social
+## Lesson Experience
+- [ ] Don't paste all theory at once — add a "read on" button so users progress through content in chunks
+- [ ] Add an "ask AI" button in each section for when a user doesn't understand
+- [ ] Add callout boxes: common mistakes, warnings, tips
+- [ ] Link book pages inline (hover-to-preview like AI chatbot citations, with the relevant text highlighted in the book)
+- [ ] Quizzes: add flashcards and more interactive formats beyond typing/multiple-choice — reference RevisionDojo and Brilliant for hands-on lesson design
+- [ ] Design original cheatsheets
+- [ ] Add FreeCodeCamp-style roadmap workshops into learning plans (e.g. "write a proof" exercise in a math plan)
+- [ ] After a career learning plan is completed, show relevant interview questions at the end
 
-•	Add fuzzy search + auto-suggested closest friends in “Add Friends”
-•	Add achievements
+## CoWorker / AI
+- [ ] Add web search to CoWorker so it can pull relevant data
+- [ ] Add whatever else an agent needs to be useful
+- [ ] Allow AI to access user data (grades, etc.) where relevant
+- [ ] Add guardrails: restrict use to studying/help with what Gamma offers (our tools/connections) — prevent misuse
+- [ ] Make chats account-based, not device-based, so any device can access a user's chat history
+- [ ] Refine AI output prompts to avoid generic filler ("here is x", "that's an interesting question," etc.)
+- [ ] If a user's message is long, the input box should expand downward
+- [ ] Teachers don't care about levels/XP — adjust what's shown to teacher-facing views accordingly
 
-Curriculum / Lessons
+## General-Purpose Tools
+- [ ] Add humanizer, plagiarism checker, and AI detector
 
-•	Build out actual lesson content in /lessons
-•	Support additional curricula: IB (MYP and DP), AP, GCSE, A-Levels, Le Bac, others
-•	For IB (mostly DP) resources, use the PirateIB repo (git.pirateib.sh/pirateIB) — free, past papers only. Also include MYP assistance like Personal project help like creating a project, assistance in the steps, how to design it and feedback. For DP, add CAS, EE, TOK, IA and anything else for it help.
+## IQ Test
+- [ ] Refine to MENSA-level rigor using real research/public data
+- [ ] Add anti-cheating: prevent leaving the page, require camera on to confirm focus
 
-Nirala
+## Nirala
+- [ ] Expand the notes embed box in the library — too much empty space currently
 
-•	Expand the notes embed box in the library — too much empty space currently
+## Quick Learn
+- [ ] Add a "teach baby Jojo" mode — user teaches the AI instead of being taught
 
-Quick Learn
+## Integrations
+- [ ] Add missing connections: Spotify, Gmail, Google Calendar, Google Drive
 
-•	Add a “teach baby Jojo” mode — user teaches the AI instead of being taught
+## Billing / Marketplace
+- [ ] Settings → Billing: add PayPal linking so users can sell notes on the marketplace
+- [ ] Add textbook privacy (visible only if self-posted)
+- [ ] Add favoriting (TikTok-style saved folder) and likes (separate count + list) for textbooks
 
-Integrations
+## Notifications
+- [ ] Currently email-only — build actual in-app notifications
 
-•	Add missing connections: Spotify, Gmail, Google Calendar, Google Drive
+## Onboarding
+- [ ] Build onboarding (currently none — users land straight in the full dashboard)
 
-Billing / Marketplace
-
-•	Settings → Billing: add PayPal linking so users can sell notes on the marketplace
-•	Payment history is currently locked behind premium — why? Fix/unlock
-•	Add textbook privacy (only visible if self-posted), favoriting (TikTok-style folder), and likes (separate count + list)
-
-Notifications
-
-•	Confirm current behavior: notifications work by sending an email, no in-app notification exists yet
-
-CoWorker
-
-    add web search to the AI so it can search up relevant data. Also add anything else an agent might need. Also check if it can look into the users data. Just add protection to make sure users don't use it for anything bad and only use it to study and ask about stuff and help ONLY SPECIFIC to what we offer (our connections, tools and so on).
-
-    teachers don't care about levels and XP
-
-    Clean up repo. Like the Implementation status.md, roadmap, phases and so on and put everything into one .md file for a single source of truth
-
-    Also add a way for students to specify shit when making a learning plan and also add grades
-
-    Also add a way for students to specify shit when making a learning plan and also add grades. So like if a 9th grader wants to make a learning plan based on his grade,
-
-- add a way for users to extend the timeline more than 6 months. Also, when the user reads the theory, link book pages and stuff like those AI chatbot tictacs so you hover over them and the page appears and the relevant text gets highlighted in the book. Also, make sure all the animations and graphs render in lessons.
-- Instead of a countdown, replace it with a counter which counts up the time and with your solved time, it adapts next lessons
-- theory shouldn't be pasted all at once, add a read on button in the lessons so users can read little by little and once they are ready, they can press the button and get the next part.
-- In each section, add a button to ask AI if the user doesn't understand.
-- add boxes like common mistakes, warning, tip and so on.
-- For the quizzes, also include flash cards and stuff so it would be more interactive (also look into revisiondojo and brilliant on how they make their on hands lessons. We will still use theory, just at the end where the quiz is to test the users knowledge on the learned lesson, we would add more interactive ways than typing in or multiple choice)
-- We need to design our own cheatsheets
-- Add general purpose tools like humanizer, plagiarism and AI detector,
-- after a user completes his career learning plan, at the end it would show like interview questions taken all over the place
-- Take freecodecamp and how they make their roadmaps: they add workshops and stuff. So add that into our learning plans (both the normal and career). For normal learning plans, for example in a maths learning plan, it would add writing a proof and stuff.
-- onboarding needed
-- need to refine the prompt for how the coworker and other AIs should generate their content (avoid "here is x", "that's an interesting question" and stuff like that)
-- check if the chats with the AIs like coworker are not device based (they should be account based, meaning any device should be able to access the users chats)
-- allow the AI to access your grades and anything else of the user
-- if the message of the user is long, the input box should go down
-- refine the IQ test to be on the same level of MENSA. So we need to take research and public data and stop users from escaping the website + turn on their camera to make sure they are focused and not cheating
-- instead of doing changes of how questions are formed by last lesson, we can do something like elicejus: each question is generated on demand until the user understands the topic and then once he understands it, the next lessons questions and lesson content is made based on how many questions did it take for the user to fully understand.
-- add final tests for each topic.
-
-
-- [ ] 
+## Repo / Docs Hygiene
+- [ ] Consolidate Implementation Status, roadmap, phases, etc. into one single-source-of-truth .md file
