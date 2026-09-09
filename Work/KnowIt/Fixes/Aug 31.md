@@ -61,7 +61,7 @@
 - [ ] After a career learning plan is completed, show relevant interview questions at the end
 
 ## CoWorker / AI
-- [x] Add web search to CoWorker so it can pull relevant data
+- [] Add web search to CoWorker so it can pull relevant data
 - [ ] Add whatever else an agent needs to be useful
 - [ ] Allow AI to access user data (grades, etc.) where relevant
 - [ ] Add guardrails: restrict use to studying/help with what Gamma offers (our tools/connections) — prevent misuse
