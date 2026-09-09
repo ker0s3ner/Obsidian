@@ -96,3 +96,4 @@ CoWorker
 - refine the IQ test to be on the same level of MENSA. So we need to take research and public data and stop users from escaping the website + turn on their camera to make sure they are focused and not cheating
 - instead of doing changes of how questions are formed by last lesson, we can do something like elicejus: each question is generated on demand until the user understands the topic and then once he understands it, the next lessons questions and lesson content is made based on how many questions did it take for the user to fully understand.
 - add final tests for each topic.
+
