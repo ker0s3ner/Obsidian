@@ -94,3 +94,4 @@ CoWorker
 - allow the AI to access your grades and anything else of the user
 - if the message of the user is long, the input box should go down
 - refine the IQ test to be on the same level of MENSA. So we need to take research and public data and stop users from escaping the website + turn on their camera to make sure they are focused and not cheating
+- instead of doing 
