@@ -1,11 +1,20 @@
-# Ev
+# Quant Backlog
 
-- It's just missing the logo,
-- Shared hub POST failed [400]: {"error":"insert or update on table \"shared_items\" violates foreign key constraint \"shared_items_owner_id_fkey\""}
--  Just the visualisation: the window should not be floating, it should be on the right side as a menu. And the selection of which type of visualisaiton should be at the top row, not in both
-- Missing login (use the hub and the website spreadsheet saving)
-- allow export as both csv and xslx
-- hook up the AI
-- - clicking on a point in the visualisation should route to the cell on the spreadsheet
-- add web search and other tools to the prismal AI
+## Bugs
+- [ ] Shared hub POST fails with 400: foreign key constraint violation on `shared_items_owner_id_fkey` (insert/update on `shared_items` table)
+- [ ] Missing login — hook up to the hub and website spreadsheet saving
 
+## Branding
+- [ ] Missing logo
+
+## Visualization
+- [ ] Move the visualization window from floating to a right-side menu panel
+- [ ] Move the visualization-type selector to a single top row (currently duplicated in two places)
+- [ ] Clicking a point in the visualization should route/jump to the corresponding spreadsheet cell
+
+## Export
+- [ ] Allow export as both CSV and XLSX
+
+## AI
+- [ ] Hook up the AI (currently not connected)
+- [ ] Add web search and other tools to the Prismal-style AI assistant
