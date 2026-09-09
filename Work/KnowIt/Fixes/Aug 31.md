@@ -1,4 +1,4 @@
-**Bugs / Broken Functionality
+Bugs / Broken Functionality
 
 •	My Classes page loads differently from the other pages
 •	Progress doesn’t actually save in environments — check both free and premium users
@@ -89,8 +89,7 @@ CoWorker
 - after a user completes his career learning plan, at the end it would show like interview questions taken all over the place
 - Take freecodecamp and how they make their roadmaps: they add workshops and stuff. So add that into our learning plans (both the normal and career). For normal learning plans, for example in a maths learning plan, it would add writing a proof and stuff.
 - onboarding needed
-- rainbow text at the front page just stops completely and continues, it needs to slow down when it will stop and have a bigger radius
 - need to refine the prompt for how the coworker and other AIs should generate their content (avoid "here is x", "that's an interesting question" and stuff like that)
 - check if the chats with the AIs like coworker are not device based (they should be account based, meaning any device should be able to access the users chats)
 - allow the AI to access your grades and anything else of the user
-- if the message of the user is long, the input box should go down**
+- if the message of the user is long, the input box should go down
