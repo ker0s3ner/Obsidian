@@ -93,4 +93,4 @@ CoWorker
 - check if the chats with the AIs like coworker are not device based (they should be account based, meaning any device should be able to access the users chats)
 - allow the AI to access your grades and anything else of the user
 - if the message of the user is long, the input box should go down
-- refine the IQ test to be on the same level of MENSA. 
+- refine the IQ test to be on the same level of MENSA. So we need to take research and public data and stop users from escaping the website
