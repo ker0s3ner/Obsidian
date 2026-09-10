@@ -24,7 +24,7 @@
 - [ ] Support acting on blocked files (delete/rename/open) while keeping the overlay
 - [ ] Add Vim keybinds (full mapping)
 - [ ] Clean up extra YAML blocks (e.g. weather)
-
+- [ ] Add a 
 
 ## Library / Content
 - [ ] Preload the whole library instead of requiring search
