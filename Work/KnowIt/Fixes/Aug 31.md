@@ -90,6 +90,7 @@
 - [ ] Settings → Billing: add PayPal linking so users can sell notes on the marketplace
 - [ ] Add textbook privacy (visible only if self-posted)
 - [ ] Add favoriting (TikTok-style saved folder) and likes (separate count + list) for textbooks
+- [ ] 
 
 ## Notifications
 - [ ] Currently email-only — build actual in-app notifications
