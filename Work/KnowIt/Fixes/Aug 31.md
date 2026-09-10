@@ -50,7 +50,7 @@
 - [ ] Adapt next lessons based on solved time — replace the countdown with a count-up timer that adjusts future lessons based on performance
 - [ ] Instead of static question sequencing, generate each question on demand until the user demonstrates understanding, then base the next lesson's content/questions on how many attempts it took (Elicėjus-style adaptive approach)
 - [ ] Add final tests for each topic
-- [ ] Quick learn - make it so it generates questions more about the mathematical answers and no theory.
+- [ ] Quick learn - make it so it generates questions more about the mathematical answers and no theory questions in the quizzes
 
 ## Lesson Experience
 - [ ] Don't paste all theory at once — add a "read on" button so users progress through content in chunks
