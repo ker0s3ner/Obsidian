@@ -12,7 +12,7 @@
 - [ ] Tab favicon doesn't match the actual site logo
 - [ ] Community posts layout is broken (hearts, comments, trash icon)
 - [ ] Payment history is locked behind premium — should not be, fix/unlock
-- [ ] Quick learn multiple choice options show false no matter what, 
+- [ ] Quick learn multiple choice options show false no matter what, they don't 
 
 ## Environments
 - [ ] Verify environment invites actually work
