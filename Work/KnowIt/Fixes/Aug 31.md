@@ -64,7 +64,7 @@
 
 ## CoWorker / AI
 - [ ] Add web search to CoWorker so it can pull relevant data
-- [ ] Add whatever else an agent needs to be useful
+- [ ] Add whatever else an agent needs to be useful (
 - [ ] Allow AI to access user data (grades, etc.) where relevant
 - [ ] Add guardrails: restrict use to studying/help with what Gamma offers (our tools/connections) — prevent misuse
 - [ ] Make chats account-based, not device-based, so any device can access a user's chat history
