@@ -35,7 +35,7 @@
 ## Profile / Social
 - [ ] Add fuzzy search + auto-suggested closest friends in "Add Friends"
 - [ ] Add achievements
-
+- [ ] Add a button to add a friend in the hover card and the profile view
 ## Curriculum / Lessons — Content Coverage
 - [ ] Build out actual lesson content in /lessons
 - [ ] Support additional curricula: IB (MYP and DP), AP, GCSE, A-Levels, Le Bac, others
