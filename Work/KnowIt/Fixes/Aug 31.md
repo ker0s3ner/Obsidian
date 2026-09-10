@@ -100,4 +100,5 @@
 
 ## Repo / Docs Hygiene
 - [ ] Consolidate Implementation Status, roadmap, phases, etc. into one single-source-of-truth .md file
-- [ ] what you ask in the CoWorker also 
+- [ ] what you ask in the CoWorker also changes your learning plan
+- [ ] 
