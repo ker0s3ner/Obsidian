@@ -13,6 +13,7 @@
 - [ ] Community posts layout is broken (hearts, comments, trash icon)
 - [ ] Payment history is locked behind premium — should not be, fix/unlock
 
+
 ## Environments
 - [ ] Verify environment invites actually work
 - [ ] Verify other users' actions in a shared environment show up live for everyone, and persist
