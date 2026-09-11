@@ -9,4 +9,4 @@
 - [ ] Remove styles that don't fit this direction (e.g. Wolfram Alpha-style theme, others)
 
 ## Branding
-- [x] Create a transparent-background icon
+- [ ] Create a transparent-background icon
