@@ -13,4 +13,4 @@
 
 - [ ] We need to make the Tex, video and the graphing modes work
 
-- [ ] 
+- [ ] we need custom
