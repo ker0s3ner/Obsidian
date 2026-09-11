@@ -14,3 +14,5 @@
 - [ ] We need to make the Tex, video and the graphing modes work
 
 - [ ] we need custom screens like in @Nirala for creating and naming files and folders and renaming them
+
+- [ ] We need
