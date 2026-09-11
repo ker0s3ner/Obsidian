@@ -11,4 +11,4 @@
 ## Branding
 - [ ] Create a transparent-background icon
 
-- [ ] 
+- [ ] We need to make the Tex 
