@@ -110,4 +110,5 @@
 
 
 
-- [ ] We need to add more functionality like a study thingy where you mark which days you studied and for how long and so on or a study routine generator and anything else
+- [ ] We need to add more functionality like a study thingy where you mark which days you studied and for how long and so on and/or a study routine generator and anything else
+- [ ] 
