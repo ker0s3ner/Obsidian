@@ -110,4 +110,4 @@
 
 
 
-- [ ] We need to add more functionality like a 
+- [ ] We need to add more functionality like a study 
