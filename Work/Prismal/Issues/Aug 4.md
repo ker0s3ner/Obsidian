@@ -11,4 +11,6 @@
 ## Branding
 - [ ] Create a transparent-background icon
 
-- [ ] We need to make the Tex, video and the 
+- [ ] We need to make the Tex, video and the graphing modes work
+
+- [ ] 
