@@ -9,7 +9,7 @@
 - [ ] Remove styles that don't fit this direction (e.g. Wolfram Alpha-style theme, others)
 
 ## Branding
-- [ ] Create a transparent-background icon
+- [x] Create a transparent-background icon
 
 - [ ] We need to make the Tex, video and the graphing modes work
 
