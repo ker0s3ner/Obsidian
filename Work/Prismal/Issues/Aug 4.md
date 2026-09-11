@@ -15,4 +15,4 @@
 
 - [ ] we need custom screens like in @Nirala for creating and naming files and folders and renaming them
 
-- [ ] We need to add our own i
+- [ ] We need to add our own icons for the folders and files 
