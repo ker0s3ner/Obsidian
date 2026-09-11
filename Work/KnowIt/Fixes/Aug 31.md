@@ -113,4 +113,4 @@
 - [ ] We need to add more functionality like a study thingy where you mark which days you studied and for how long and so on and/or a study routine generator and anything else
 - [ ] Adding tips for nootropics and stuff
 - [ ] Our questions and problems generated need to be 10x harder than any program ever created. So if you solver our "easy" questions perfectly, and maybe only 5 "medium" level problems, you would pass flawlessly in any test.
-- [ ] We need to create one unified 
+- [ ] We need to create one unified grading system so our grades would convert perfectly into any national system
