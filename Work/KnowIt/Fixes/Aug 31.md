@@ -110,4 +110,4 @@
 
 
 
-- [ ] We need to add more functionality like a study 
+- [ ] We need to add more functionality like a study thingy or a study routine generator and anything else
