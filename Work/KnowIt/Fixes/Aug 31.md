@@ -4,7 +4,7 @@
 - [ ] My Classes page loads differently from the other pages
 - [ ] Progress doesn't actually save in environments — check both free and premium users
 - [ ] Subject Comparison widget still shows Learning Plans as if they were Subjects
-- [ ] Subject Comparison hover tooltip shows "Value: n" instead of "Lesson Count: n"
+- [x] Subject Comparison hover tooltip shows "Value: n" instead of "Lesson Count: n"
 - [ ] Multiplayer: full or 1hr+ old rooms aren't cleaned up — remove them
 - [ ] Multiplayer: exiting a room still counts the user as present, inflating the room count
 - [ ] Some personalized-learning lessons fail to render graphs/visualizations — verify all animations/graphs render
