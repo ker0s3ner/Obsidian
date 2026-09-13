@@ -47,3 +47,4 @@
 - [ ] Full Jupyter replacement with interactive cells (beyond current notebook import)
 
 - [ ] You are unable to view images directly as files, you can only view them if they are pasted. That should be changed
+
