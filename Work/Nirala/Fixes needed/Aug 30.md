@@ -51,4 +51,4 @@
 
 
 
-- [ ] Work on 
+- [ ] Work on trading journal addition
