@@ -1,406 +1,196 @@
-# Updated Formatting Standard - Based on Your Example
-
-## File Count Flexibility
-
-**Note**: While many sections have 7 files, this is a MINIMUM requirement. Sections can have:
-- **Fewer than 7 files**: If the topic is narrow (e.g., 4-5 files)
-- **Exactly 7 files**: Common for comprehensive topics
-- **More than 7 files**: For broad subjects that need expansion (8, 9, 10+ files)
-
-The key is comprehensive coverage, not hitting an arbitrary number.
+## Obsidian Notes — Formatting Guide
 
 ---
 
-## Key Formatting Rules
+## File Naming
 
-Based on `6.3.4 — Functions of Several Variables & Level Surfaces.md`, here are the formatting standards:
+- Use underscores: `3.7_Quadratics.md`, `Persejas_ir_Andromeda.md`
+- Numbered math files: `6.1.3_Differentiation.md`
+- Lithuanian myth files: title-cased Lithuanian, no diacritics in filename
 
 ---
 
-## 1. No Frontmatter (No Banner/Tags/Dates)
+## File Structure
 
-**DON'T:**
-```yaml
+Every file follows this order — no exceptions:
+
+```
+## Title (no # at top, use ##)
+
+Related: [[File_One]] · [[File_Two]] · [[File_Three]]
+
 ---
-banner: url
-tags:
-  - math
-created: 2026-04-14
+
+## Section
+
+Content
+
 ---
+
+## Section
+
+Content
 ```
 
-**DO:** Start directly with content
+**Never include:**
+- `#hashtags` at the top
+- A table of contents
+- A `žymos:` / tags line at the bottom
 
 ---
 
-## 2. Related Section at Top
+## Headings
+
+| Level | Use |
+|-------|-----|
+| `##` | File title (first line) and major sections |
+| `###` | Subsections within a section |
+
+No `#` (H1) anywhere. No deeper than `###` unless genuinely necessary.
+
+---
+
+## Related Links
+
+Always the second line, before any content:
+
+```
+Related: [[Topic_One]] · [[Topic_Two]]
+```
+
+- Separator is ` · ` (space, middle dot, space)
+- Only link files that are genuinely referenced in the content
+
+---
+
+## LaTeX
+
+Block equations — use `$$...$$` on their own lines:
+
+```
+$$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+```
+
+Inline — use `$...$`:
+
+```
+The slope is $m = \frac{dy}{dx}$.
+```
+
+Never use raw LaTeX without delimiters. Never use the triple-render format from exported notes.
+
+---
+
+## Callout Blocks
+
+Four types used across the notes:
 
 ```markdown
-Related: [[6.3.3 — Curvature, Normal & Binormal Vectors]] · [[6.3.5 — Limits and Continuity in Several Variables]]
+> [!tip] Optional title
+> Content — used for memory tricks, strategic advice, connections between ideas
 
----
+> [!warning] Optional title
+> Content — used for common mistakes, critical rules, things that break
+
+> [!example]
+> Content — used for worked examples inline
+
+> [!note] Optional title
+> Content — used for contextual remarks, variant versions, nuance
 ```
 
-Use `·` (middle dot) to separate links.
-
-### Related Links Rules
-
-**Same folder**: Use just the filename without path
-```markdown
-Related: [[12.1.2 Sequences & series]] · [[12.1.3 Continuity]]
-```
-
-**Different folder**: Use full path from Mathematics root
-```markdown
-Related: [[6.1.1 Limits]] · [[13.1.4 Compactness]]
-```
-
-**DON'T**:
-- ❌ `[[12. Analysis/12.1 Real Analysis I/12.1.3 Continuity]]` (unnecessary full path)
-- ❌ `[[12.1.1.1 Epsilon-delta definition]]` (non-existent file)
-- ❌ `[[5.5 Sequences]]` (wrong section number)
-
-**DO**:
-- ✅ `[[12.1.3 Continuity]]` (same folder - just filename)
-- ✅ `[[6.1.1 Limits]]` (different folder - path from root)
-- ✅ Verify all referenced files actually exist with correct names
+Callout blocks are used **selectively** — one or two per section, not on every paragraph.
 
 ---
 
-## 3. No Numbering in Headings
+## Tables
 
-**DON'T:**
-```markdown
-## 1. Definition
-## 2. Examples
-### 2.1 Linear Function
-```
-
-**DO:**
-```markdown
-## Definition
-## Examples
-### Linear Function
-```
-
----
-
-## 4. Use Callout Boxes
-
-### Example Boxes
-```markdown
-> [!example] Title
-> Content here
-```
-
-**Example from your file:**
-```markdown
-> [!example] $f(x, y) = \sqrt{1 - x^2 - y^2}$ 
-> Domain: $x^2 + y^2 \leq 1$ (unit disk)
-> Range: $0 \leq z \leq 1$
-```
-
-### Warning Boxes
-```markdown
-> [!warning] Common Misconception
-> The limit describes behavior **near** $a$, not **at** $a$.
-```
-
-### Info Boxes
-```markdown
-> [!info] Prerequisites
-> - [[6. Calculus|Calculus I & II]]
-> - [[3. Algebra|Algebra]]
-```
-
----
-
-## 5. Tables for Organized Information
+Use tables for:
+- Comparing items side by side
+- Reference lists (formulas, properties, vocabulary)
+- Structured summaries
 
 ```markdown
-|Concept|Meaning|
-|---|---|
-|**Domain**|All $(x, y)$ for which $f$ is defined|
-|**Range**|All possible $z$-values|
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Item     | Item     | Item     |
 ```
 
-**Another example:**
-```markdown
-|Equation|Surface|
-|---|---|
-|$z = ax + by + c$|Plane|
-|$z = x^2 + y^2$|Paraboloid (bowl)|
-```
+Do not use tables for content that reads naturally as prose.
 
 ---
 
-## 6. Practice Problems WITH Numbering
+## Lists
 
-**DON'T:**
-```markdown
-## Practice Problems
+Use bullet lists only for genuinely enumerable items — steps, conditions, properties. Do not use bullets where a sentence works.
 
-- Find the domain...
-- Sketch the level curves...
-- Find $f_x$ and $f_y$...
-```
-
-**DO:**
-```markdown
-## Practice Problems
-
-1. Find the domain of $f(x, y) = \sqrt{1 - x^2 - y^2}$
-2. Sketch the level curves of $f(x, y) = x^2 + y^2$ for $c = 1, 4, 9$
-3. Calculate partial derivatives $f_x$ and $f_y$ for $f(x, y) = x^3y^2 + e^{xy}$
-4. Find all critical points of $f(x, y) = x^3 - 3xy + y^3$
-5. Evaluate $\lim_{(x,y) \to (0,0)} \frac{x^2y}{x^2 + y^2}$
-```
-
-Use numbered list (`1.`, `2.`, `3.`) for practice problems.
-
-**Note**: All practice problems should be in a single numbered list under one "Practice Problems" heading. Don't split them into separate subsections or categories.
+Numbered lists for sequences where order matters (algorithms, proof steps, procedures).
 
 ---
 
-## 7. Horizontal Rules Between Sections
+## Math-Specific Conventions
 
-Use `---` to separate major sections:
+**Definitions** — state the formula first, then explain the parts in a table:
 
 ```markdown
-## Definition
+$$a_n = a_1 + (n-1)d$$
 
-Content here...
-
----
-
-## Examples
-
-More content...
-
----
-
-## Practice Problems
-
-Final section...
+| Symbol | Meaning |
+|--------|---------|
+| $a_1$  | First term |
+| $d$    | Common difference |
 ```
 
----
-
-## 8. Obsidian Graphs Plugin
-
-For visualizing mathematical functions, surfaces, and relationships, use the Obsidian Graphs plugin:
-https://www.obsidianstats.com/plugins/graphs
-
-### Basic Syntax
+**Worked examples** — use `> [!example]` blocks or bold headers:
 
 ```markdown
-```graph
-y = x^2
-```
-```
+**Example — Solve $2x + 5 = 11$**
 
-**Examples:**
-
-#### Basic Function
-```graph
-y = sin(x)
+$$2x = 6 \implies x = 3$$
 ```
 
-#### Multiple Functions
-```graph
-y = x^2
-y = 2x + 1
-y = -x + 3
-```
+**Practice problems** — always the last section, introduced by `## Practice Problems`. No solutions inline.
 
-#### With Parameters
-```graph
-y = a*x^2 + b*x + c
-a = 1
-b = 0
-c = 0
-```
+---
 
-#### Inequalities
-```graph
-y > x^2
-y < 2x + 1
-```
+## Lithuanian Myth-Specific Conventions
 
-#### Parametric Curves
-```graph
-x = cos(t)
-y = sin(t)
-t = [0, 2pi]
-```
+Every myth file contains these sections in this order:
 
-### 3D Graphs
+1. `## Kontekstas` — sources, historical background, variants
+2. `## Siužetas` — plot, broken into numbered subsections with `### N. Title`
+3. `## Veikėjai` — characters, each with a `> [!note] Mano nuomonė` block
+4. `## Įvykiai` — key events and their structural meaning
+5. `## Temos` — themes, each with a `> [!question]` block
+6. `## Vietos` — places and their symbolic function
+7. `## Palyginimai` — comparison tables between this myth and others
 
-Use the same ` ```graph ` block for 3D visualizations:
+Wikilinks are embedded **in the prose** where genuinely relevant — not in a dedicated links section.
+
+---
+
+## Wikilinks
+
+Format: `[[Filename_Without_Extension]]` or `[[Filename|Display text]]`
 
 ```markdown
-```graph
-z = x^2 + y^2
-```
+See [[Prometėjas_ir_Aischilas]] for the same pattern in Prometheus.
 ```
 
-**Examples:**
-
-#### Basic Surface
-```graph
-z = x^2 + y^2
-```
-
-#### Multiple Surfaces
-```graph
-z = x^2 + y^2
-z = 2*x*y
-```
-
-#### Parametric Surfaces
-```graph
-x = u*cos(v)
-y = u*sin(v)
-z = u
-u = [0, 2]
-v = [0, 2*pi]
-```
-
-#### Level Surfaces
-```graph
-x^2 + y^2 + z^2 = 4
-```
-
-**When to Use Obsidian Graphs:**
-
-**2D Graphs:**
-- Visualizing functions in calculus
-- Showing geometric relationships
-- Demonstrating transformations
-- Illustrating solution sets
-- Displaying level curves (as 2D slices)
-- Phase plane analysis in differential equations
-
-**3D Graphs:**
-- Multivariable function visualization
-- Surface plots and level surfaces
-- Vector fields
-- Parametric surfaces
-- 3D geometry and solid regions
-- Gradient and contour visualizations
-
-**Note**: The plugin automatically detects whether to render 2D or 3D based on the equation(s) provided. Use `z =` for 3D graphs.
-
-**Best Practices:**
-- Keep graphs simple and focused on key concepts
-- Use descriptive titles in surrounding text
-- Reference the graph in your explanation
-- Combine with tables for multiple cases
-- For complex 3D surfaces, consider rotating view angles
-- Use 2D graphs when showing cross-sections or projections
+Links appear **inside sentences**, not as standalone reference lists.
 
 ---
 
-## 9. Inline Math vs Display Math
+## Horizontal Rules
 
-**Inline**: `$f(x) = x^2$`
-
-**Display**:
-```markdown
-$$\lim_{x \to a} f(x) = L$$
-```
+Use `---` to separate major sections. One blank line before and after.
 
 ---
 
-## Complete Template
+## What to Avoid
 
-```markdown
-Related: [[Previous Topic]] · [[Next Topic]] · [[Related Concept]]
-
----
-
-## Definition
-
-Clear definition with math notation.
-
-> [!warning] Common Pitfall
-> Important warning here.
-
----
-
-## Key Concepts
-
-### Concept 1
-
-Explanation.
-
-```graph
-y = x^2
-```
-
-> [!example] Visual Interpretation
-> The graph shows...
-
-### Concept 2
-
-More explanation.
-
----
-
-## Examples
-
-> [!example] Example Title
-> Worked example with solution.
-
-```graph
-z = x^2 + y^2
-```
-
----
-
-## Common Mistakes
-
-> [!warning] Mistake 1
-> Description.
-
----
-
-## Practice Problems
-
-1. Problem statement with math notation
-2. Another problem
-3. Third problem
-4. Continue numbering sequentially
-5. All problems in one list under single heading
-```
-
----
-
-## Files Updated to Match This Format
-
-✅ `12.1 Real Analysis I.md` - Main MOC  
-✅ `12.1.1 Rigorous limits.md` - Topic file  
-✅ `12.1.1.1 Epsilon-delta definition.md` - Sub-subtopic file  
-
-All three now follow the exact format from your Calculus III example.
-
----
-
-## Key Differences from Previous Version
-
-|Aspect|Old Format|New Format|
-|---|---|---|
-|Frontmatter|Banner, tags, dates|None|
-|Headings|Numbered (`## 1. Definition`)|Unnumbered (`## Definition`)|
-|Examples|Regular text or bold|Callout boxes `> [!example]`|
-|Warnings|Bullet points with ❌|Callout boxes `> [!warning]`|
-|Tables|Sometimes used|Heavily used for organization|
-|Practice Problems|Bullet points or categorized|Single numbered list (1., 2., 3.)|
-|Section Separators|Inconsistent|Consistent `---` between sections|
-|Related Links|At bottom|At top with `·` separator|
-|Graphs|External images or none|Obsidian Graphs plugin (use ` ```graph ` for both 2D & 3D)|
-|File Count|Fixed at 7|Flexible (can be more than 7)|
-
----
-
-*Updated based on user feedback - 2026-04-14*
+- `**Bold**` overuse — bold is for genuinely critical terms, not decoration
+- Nesting bullets more than two levels deep
+- Repeating the same formula three times in different formats (the LaTeX export artifact)
+- Ending a file with "What's Next:" prompts or "Say X when ready" text
+- Numbering inside the file title (`9.1.6.1 Definition` as a heading — use `## Definition` instead)
