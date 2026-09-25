@@ -11,7 +11,7 @@ Lecture notes are **capture-first** files. They prioritise speed and completenes
 ## File Naming
 
 ```
-YYYY-MM-DD_Subject_Topic.md
+Subject_Topic.md
 ```
 
 Examples:
