@@ -4,7 +4,7 @@
 
 ```terminal
 language: r
-script: script: |
+script: |
   # basic vector + stats
   x <- c(4, 8, 15, 16, 23, 42)
   cat("mean:", mean(x), "\n")
