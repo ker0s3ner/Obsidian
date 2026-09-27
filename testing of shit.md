@@ -4,7 +4,26 @@
 
 ```terminal
 language: r
-script: print('hello world')
+script: script: |
+  # basic vector + stats
+  x <- c(4, 8, 15, 16, 23, 42)
+  cat("mean:", mean(x), "\n")
+  cat("sd:", sd(x), "\n")
+
+  # a simple function
+  fib <- function(n) {
+    if (n <= 1) return(n)
+    return(fib(n - 1) + fib(n - 2))
+  }
+  cat("fib(10):", fib(10), "\n")
+
+  # data frame + auto-print
+  df <- data.frame(id = 1:5, square = (1:5)^2)
+  print(df)
+
+  # string ops
+  words <- c("nirala", "runs", "r", "now")
+  cat(toupper(paste(words, collapse = " ")), "\n")
 ```
 
 
