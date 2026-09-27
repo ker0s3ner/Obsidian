@@ -4,7 +4,7 @@
 
 ```terminal
 language: python
-script: print('
+script: print('hello world')
 ```
 
 
