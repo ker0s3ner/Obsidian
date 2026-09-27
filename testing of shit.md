@@ -64,3 +64,9 @@ title: Voice memo (00:00)
 recorded: 9/27/2026, 10:59:51 AM
 ```
 
+
+```candles
+symbol: AAPL
+range: 3mo
+interval: 1d
+```
