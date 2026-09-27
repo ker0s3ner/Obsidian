@@ -34,7 +34,7 @@ tags: [excalidraw]
       "version": 29,
       "versionNonce": 882845741,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1790496217172,
       "link": null,
       "locked": false,
@@ -154,10 +154,7 @@ tags: [excalidraw]
       ],
       "pressures": [],
       "simulatePressure": true,
-      "lastCommittedPoint": [
-        -2,
-        99
-      ]
+      "lastCommittedPoint": null
     },
     {
       "id": "WU1ZFsNGD1ost0hf9YDFU",
@@ -182,7 +179,7 @@ tags: [excalidraw]
       "version": 17,
       "versionNonce": 2115585005,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1790496218090,
       "link": null,
       "locked": false,
@@ -254,10 +251,7 @@ tags: [excalidraw]
       ],
       "pressures": [],
       "simulatePressure": true,
-      "lastCommittedPoint": [
-        23,
-        48.5
-      ]
+      "lastCommittedPoint": null
     },
     {
       "id": "_QzV80tZq3FWRbLry-6X9",
@@ -282,7 +276,7 @@ tags: [excalidraw]
       "version": 16,
       "versionNonce": 1069803011,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1790496219273,
       "link": null,
       "locked": false,
@@ -350,10 +344,7 @@ tags: [excalidraw]
       ],
       "pressures": [],
       "simulatePressure": true,
-      "lastCommittedPoint": [
-        6.5,
-        40
-      ]
+      "lastCommittedPoint": null
     }
   ],
   "appState": {
