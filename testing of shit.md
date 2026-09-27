@@ -38,3 +38,7 @@ starting_balance: 10000
 ```sql
 SELECT 1 + 1 AS answer;
 ```
+
+```graph
+code: your-prismal-share-code
+```
