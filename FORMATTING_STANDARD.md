@@ -4,7 +4,7 @@
 
 ## File Naming
 
-- Use underscores: `3.7_Quadratics.md`, `Persejas_ir_Andromeda.md`
+- Use underscores: `3.7 Quadratics.md`, `Persejas_ir_Andromeda.md`
 - Numbered math files: `6.1.3_Differentiation.md`
 - Lithuanian myth files: title-cased Lithuanian, no diacritics in filename
 
