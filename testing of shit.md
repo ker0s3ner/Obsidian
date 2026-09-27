@@ -34,3 +34,7 @@ starting_balance: 10000
 - 2026-09-01 | AAPL | long | 150.20 | 155.10 | 100 |  | breakout
 ```
 
+
+```sql
+SELECT 1 + 1 AS answer;
+```
