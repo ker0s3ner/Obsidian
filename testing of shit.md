@@ -4,7 +4,7 @@
 
 ```terminal
 language: python
-script: echo hello
+script: print('
 ```
 
 
