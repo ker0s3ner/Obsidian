@@ -3,7 +3,7 @@
 
 
 ```terminal
-language: python
+language: r
 script: print('hello world')
 ```
 
