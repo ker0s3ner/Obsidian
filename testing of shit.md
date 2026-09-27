@@ -3,7 +3,7 @@
 
 
 ```terminal
-language: bash
+language: python
 script: echo hello
 ```
 
