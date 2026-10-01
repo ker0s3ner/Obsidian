@@ -36,3 +36,7 @@ limit: 5
 url: https://hnrss.org/frontpage
 limit: 5
 ```
+
+```calendar
+view: month
+```
