@@ -45,3 +45,9 @@ view: month
 questions: 5
 regen: yes
 ```
+
+```page
+path: 
+page: 1
+caption: 
+```
