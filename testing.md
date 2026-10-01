@@ -26,3 +26,8 @@ columns: [Task, Owner, Status]
 - Task one | Alice | done
 - Task two | Bob
 ```
+
+```feed
+url: https://hnrss.org/frontpage
+limit: 5
+```
