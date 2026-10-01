@@ -40,3 +40,8 @@ limit: 5
 ```calendar
 view: month
 ```
+
+```questy
+questions: 5
+regen: yes
+```
