@@ -31,3 +31,8 @@ columns: [Task, Owner, Status]
 url: https://hnrss.org/frontpage
 limit: 5
 ```
+
+```feed
+url: https://hnrss.org/frontpage
+limit: 5
+```
