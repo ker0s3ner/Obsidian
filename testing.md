@@ -51,3 +51,9 @@ path:
 page: 1
 caption: 
 ```
+
+```journal
+columns: [Date, Symbol, Side, Entry, Exit, Size, PnL, Tags]
+starting_balance: 10000
+- 2026-09-01 | AAPL | long | 150.20 | 155.10 | 100 |  | breakout
+```
