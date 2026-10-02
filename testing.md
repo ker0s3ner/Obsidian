@@ -63,4 +63,4 @@ starting_balance: 10000
 ```terminal
 language: python
 script: print('hello')
-```
+`
