@@ -81,10 +81,7 @@ height: 420
 ```terminal
 language: python
 script: print('hello')
-```
-
-
-
+``
 
 
 
