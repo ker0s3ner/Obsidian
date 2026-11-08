@@ -87,6 +87,11 @@ script: print('hello')
 
 
 
+```terminal
+language: python
+script: print('hello')
+```
+
 
 
 
