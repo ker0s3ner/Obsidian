@@ -7,11 +7,7 @@ author: Tim Notke
 
 ## ⏰ Current Time
 
-```clock
-timezone: GMT+2
-label: World Clock
-format: 24
-```
+
 
 ---
 
